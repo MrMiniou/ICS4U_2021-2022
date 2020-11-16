@@ -14,7 +14,7 @@ A **global variable** is a variable that is declared within a global scope. It m
 
 A **data type** is the kind of data that a variable can store.
 
-All data types are either primitive or composite. A **primitive data type** (a.k.a. a **basic data type**) represents a single piece of information. If a data type isn't primitive, it is a **composite data type**. Whether a data type is primitive or composite depends on the programming language. Here are the four primitive data types in Java. 
+All data types are either primitive or composite. A **primitive data type** (a.k.a. a **basic data type**) represents a single piece of information. If a data type isn't primitive, it is a **composite data type**. Whether a data type is primitive or composite depends on the programming language. Here are the four primitive data types in Python. 
 
 | Data Type | Explanation                                                  |
 | --------- | ------------------------------------------------------------ |
