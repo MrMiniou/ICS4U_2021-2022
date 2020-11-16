@@ -2,7 +2,7 @@
 
 Disclaimer: The following is a tentative schedule. Upcoming activities might be updated, although current activities will be accurate.
 
-### Days 1-3
+### Days 1-2
 
 * Ethical Computer Use
 * Print Statements
@@ -10,7 +10,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Data Types
 * Conditionals
 
-### Days 4-5
+### Days 3-5
 
 * Loops
 * Functions
