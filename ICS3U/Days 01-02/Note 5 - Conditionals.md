@@ -45,6 +45,8 @@ else:
 
 In any conditional structure, you may have as many or as few `elif` blocks as you wish. You may have no more than one `else` block. 
 
+If you have multiple `if` blocks followed by an `else` block, the `else` block will run if the condition in the most `if` was `false`. 
+
 In general, if the conditions are mutually exclusive (i.e. they can't hold true at the same time), you should use `if` followed by `elif` rather than `if` followed by another `if`.
 
 
