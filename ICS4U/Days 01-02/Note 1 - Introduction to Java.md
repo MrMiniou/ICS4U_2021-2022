@@ -77,5 +77,5 @@ Here are a few things worth noting about writing Java code in repl.it that are d
 * The top-level class is called `Main` by default and cannot be renamed. (We'll get to what top-level means in later lesson.)
 * The `main()` method must be inside the `Main` class. 
 * Files are not auto-filled when you first create them. You may have to do a lot of copy-pasting from other files when getting started.
-* [Javadocs](https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/) are not supported. These include tags in multi-line comments that begin with `/**`. Typically, you can use Javadocs to auto-generate a summary of documentation for each class and method, but you cannot do that with repl.it unfortunately.
+* [Javadocs](https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/) are only partially supported. These include tags in multi-line comments that begin with `/**`. Typically, you can use Javadocs to auto-generate a summary of documentation for each class and method, but you cannot do that with repl.it unfortunately.
 
