@@ -88,6 +88,6 @@ Python has the following built-in mathematical operators. You can use them to ma
 | `-=`     | `score -= 2`         | Subtracts 2 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 2;. |
 | `*=`     | `score *= 2`         | Multiplies the value of `score` by 2<br><br/> Essentially equivalent to `score = score * 2`. |
 | `//=`    | `score //= 2`        | Divides the value of `score` by 2.<br><br/>Essentially equivalent to `score = score // 2`. |
-| `**=`    | `score **= 2`        | Divides the value of `score` by 2 then takes the remainder.<br><br/>Essentially equivalent to `score = score ** 2`. |
+| `**=`    | `score **= 2`        | Raises the value of `score` by a power of 2.<br><br/>Essentially equivalent to `score = score ** 2`. |
 | `/=`     | `score /= 2`         | Divides the value of `score` by 2 then takes the dividend.<br><br/>Essentially equivalent to `score = score / 2`. |
 | `%=`     | `score %= 2`         | Divides the value of `score` by 2 then takes the remainder.<br><br/>Essentially equivalent to `score = score % 2`. |
