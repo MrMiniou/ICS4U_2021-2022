@@ -96,6 +96,7 @@ else if ((provinceName.equals("NB")) || (provinceName.equals("PE")) || (province
 else if ((provinceName.equals("YT")) || (provinceName.equals("NT")) || (provinceName.equals("NU"))) regionName = "Northern Canada";
 else regionName = "Not a region in Canada";
 ```
+Notice how `provinceName.equals("BC")` is used instead of `provinceName == "BC"`. This is because the `==` operator for `String` values in Java checks whether they have the same address (i.e. they are the same object). To check whether the content of `provinceName` is `"BC"`, you need to use the `equals()` method.
 
 **Switch Statement**
 ```java
@@ -131,8 +132,6 @@ switch(provinceName) {
         regionName = "Not a region in Canada";
 }
 ```
-
-Notice how `provinceName.equals("BC")` is used instead of `provinceName == "BC"`. This is because the `==` operator for `String` values in Java checks whether they have the same address (i.e. they are the same object). To check whether the content of `provinceName` is `"BC"`, you need to use the `equals()` method.
 
 Notice how you don't need curly braces for each `case` in the *switch* example. This is because the entire *switch* block is run until it reaches a `break` or the end of the *switch* structure. You'll be seeing another use of the keyword `break` in loops later on.
 
