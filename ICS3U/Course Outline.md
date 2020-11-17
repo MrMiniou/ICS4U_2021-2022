@@ -12,8 +12,10 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 3-5
 
-* Loops
 * Functions
+* Lists and Tuples
+* Loops
+* Python Programs with Multiple Python Files
 * Emerging Technologies
 
 ### Days 6-7
@@ -29,7 +31,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Documentation
 * Testing
 * Exception Handling
-* Python Programs with Multiple Python Files
 
 ### Days 10-12
 
