@@ -73,7 +73,7 @@ There are several classes to choose from when you are writing to files. The one 
 ```java
 /**
  *
- * @author Sarah
+ * @author MissStrong
  */
 
 // The program uses all the following classes, so they have to be imported
