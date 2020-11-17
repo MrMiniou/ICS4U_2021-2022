@@ -20,9 +20,9 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 6-7
 
-* Lists
 * Dictionaries
 * Sets
+* List Comprehension
 * Environmental Sustainability
 
 ### Days 8-9
