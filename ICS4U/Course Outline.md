@@ -21,18 +21,21 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Days 6-7
 
 * One-Dimensional Arrays
+* Two-Dimensional Arrays
 * Searching Routines
 * Environmental Sustainability
 
 ### Days 8-9
 
-* Two-Dimensional Arrays
 * Flowcharts
 * Sorting Routines
 * Measuring Efficiencies
+* Recursion
+* Finite Data Representation
 
 ### Days 10-12
 
+* Graphical User Interfaces
 * Paired Programming
 * Computer Science Research
 
@@ -41,12 +44,9 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Array Lists
 * HashSets
 * HashMaps
-* Recursion
-* Finite Data Representation
 
 ### Days 15-17
 
-* Graphical User Interfaces
 * Object-Oriented Programming
 * Post-Secondary Opportunities
 
