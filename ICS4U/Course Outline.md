@@ -36,11 +36,11 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Days 10-12
 
 * Graphical User Interfaces
-* Paired Programming
 * Computer Science Research
 
 ### Days 13-14
 
+* Paired Programming
 * Array Lists
 * HashSets
 * HashMaps
