@@ -34,13 +34,13 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 10-12
 
-* Paired Programming
 * Binary, ASCII, and Unicode
 * Computer Components
 * Computer Science Research
 
 ### Days 13-14
 
+* Paired Programming
 * I/O with Text Files
 * Object-Oriented Programming
 
