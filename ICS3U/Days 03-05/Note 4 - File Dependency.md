@@ -35,10 +35,10 @@ function2()  # does not work since this function wasn't imported
 **my_functions.py**
 
 ```python
-function1():
+def function1():
   print("Hello")
 
-function2():
+def function2():
   print("World")
 ```
 
