@@ -1,4 +1,4 @@
-## Note: File Dependency
+## Note – File Dependency
 
 We can create Python programs that have more than one Python file. In repl.it, the main python file is called *main.py* and its name cannot be changed. 
 
