@@ -1,4 +1,4 @@
-## Lesson: Lists and Tuples
+## Note – Lists and Tuples
 
 ### Lists
 
