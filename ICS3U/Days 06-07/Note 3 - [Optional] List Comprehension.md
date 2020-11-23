@@ -28,7 +28,7 @@ list_name = [expression for item in a_list]
 
 `list_name` is the  name of the list you are generating, `expression` is the expression for each value in the list based on each `item` in `a_list`. The variable `a_list` (pronounced as "a list") is used instead of `list` since `list` is a keyword in Python.
 
-Suppose we want to generate a list of all the square numbers from $$0^2$$ to $$9^2$$. One way we could do that is using list comprehension:
+Suppose we want to generate a list of all the square numbers from 0<sup>2</sup> to 9<sup>2</sup>. One way we could do that is using list comprehension:
 
 ```python
 square_numbers = [n * n for n in range(10)]
