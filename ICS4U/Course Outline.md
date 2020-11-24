@@ -42,8 +42,8 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 * Paired Programming
 * Array Lists
-* HashSets
-* HashMaps
+* Sets
+* Maps
 
 ### Days 15-17
 
