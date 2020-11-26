@@ -27,18 +27,18 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 8-9
 
+* Binary, ASCII, and Unicode
+* Computer Components
+* Computer Science Research
+
+### Days 10-11
+
 * Scope
 * Documentation
 * Testing
 * Exception Handling
 
-### Days 10-12
-
-* Binary, ASCII, and Unicode
-* Computer Components
-* Computer Science Research
-
-### Days 13-14
+### Days 12-14
 
 * Paired Programming
 * I/O with Text Files
