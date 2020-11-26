@@ -33,12 +33,12 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Recursion
 * Finite Data Representation
 
-### Days 10-12
+### Days 10-11
 
 * Graphical User Interfaces
 * Computer Science Research
 
-### Days 13-14
+### Days 12-14
 
 * Paired Programming
 * Array Lists
