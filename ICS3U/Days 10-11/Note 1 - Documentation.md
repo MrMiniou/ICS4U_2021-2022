@@ -9,6 +9,10 @@ When you are working as a member of a team, good documentation is cricital for y
 
 When you are working on a large project, good documentation is cricital for understanding and remembering what particular blocks of code do in case you don't remember writing it.
 
+### Target Audience
+
+In a work environment, the target audience would be your coworkers who would potentially review your code. In this course, the target audience for your comments will be your classmates.
+
 ### What is a Good Comment?
 
 Good comments don't point out obvious things, like this:
@@ -16,7 +20,6 @@ Good comments don't point out obvious things, like this:
 ![](../../Images/Stop_Sign.jpg)
 
 ![](../../Images/Cat.jpg)
-
 
 The images above are similar to the code below.
 
