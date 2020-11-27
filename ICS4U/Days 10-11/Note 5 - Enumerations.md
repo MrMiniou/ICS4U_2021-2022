@@ -31,7 +31,7 @@ for (DayOfTheWeek d: DayOfTheWeek.values() {
 ```
 The `values()` function here is similar to getting an array of each day of the week. The `ordinal()` function gets the position it appears in the definition of the `enum`, similar to an index of an array.
 
-If we want to check what day of the week a variable is, we can use a switch statement.
+If we want to check which day of the week a variable is, we can use a switch statement.
 
 ```java
 DayOfTheWeek d = DayOfTheWeek.THURSDAY;
