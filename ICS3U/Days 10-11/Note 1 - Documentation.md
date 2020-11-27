@@ -34,7 +34,7 @@ def is_a_square_number(n):
   if (n < 0):
     return False  # negative numbers can't be squares
   sqrt = int(Math.sqrt(n))  # takes the square root of n and rounds it down to the nearest whole number
-  return sqrt * sqrt == n  # if the rounded square root squared is n, n must be a square
+  return sqrt * sqrt == n  # if n is a square, then the rounded square root squared is n
 ```
 
 Without the line comments in this case, the reader might not be able to follow this algorithm and understand why it works.
