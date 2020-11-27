@@ -3,7 +3,7 @@ Note – Aliasing
 
 ### Storing Variables
 
-Programs store variables in **memory**. Each location has an **address**, typically represented in hexadecimal.
+Programs store variables in **memory**. Each location in memory has an **address**, typically represented in hexadecimal.
 
 To find the address of a variable in Python, we can use `id()`. This returns the number as a base 10 value, but we can convert it to hexadecimal using `hex()`.
 
