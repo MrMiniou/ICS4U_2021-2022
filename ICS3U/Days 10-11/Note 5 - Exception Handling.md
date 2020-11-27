@@ -30,7 +30,7 @@ The content in the `try` block is run first. It tries to run the lines in the bl
 
 The content in the `except` block runs only when an exception such as `ZeroDivisionError` has been thrown. It "catches" the exception and prevents the program from abruptly terminating and giving you a red error message.
 
-###Type Checking
+### Type Checking
 
 We can check the type of a variable using `type()`. This can be useful for ensuring that a variable is a particular data type.
 
