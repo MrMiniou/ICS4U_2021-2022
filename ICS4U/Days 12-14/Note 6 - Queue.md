@@ -9,7 +9,7 @@ These are some the typical operations of a queue ADT:
 * add an item to the back of the queue
 * check whether the queue is empty
 
-An example of a usage of a queue is prioritizing requests from users when maintaining software. They are typically done on a first-come first-serve basis, although more important request (e.g. vulnerability issues) may "cut in line". 
+An example of a usage of a queue is prioritizing requests from users when maintaining software. Requests are typically done on a first-come first-serve basis, although more important requests (e.g. vulnerability issues) may "cut in line". 
 
 Java has an **interface** called `Queue`. The `PriorityQueue` class, among other classes, `implement` `Queue`.
 
