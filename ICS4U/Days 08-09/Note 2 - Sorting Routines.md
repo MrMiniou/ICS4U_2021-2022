@@ -227,8 +227,6 @@ Here is an example of one iteration of Quick Sort on a small array.
 
 At the end of the iteration, 3 is in the correct location. The process can be repeated on the green array and on the cyan array.
 
-The Java code for Quick Sort will be given in a future lesson.
-
 In older versions of Java (before Java SE 7), the `sort()` method in the `Arrays` class uses Quick Sort when the array is composed of composite data type. The newest versions of Java uses Tim Sort (named after someone whose first name is Tim), which is a hybrid of Quick Sort and Insertion Sort.
 
 
