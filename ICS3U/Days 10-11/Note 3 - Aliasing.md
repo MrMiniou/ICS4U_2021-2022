@@ -38,9 +38,9 @@ print(hex(id(my_list))) # prints the address where [1, 2, 3] is stored (e.g. 0x7
 
 Notice that the address of `my_list` did not change when the list was updated. This behaviour happens with all non-primitive data types in Python.
 
-###Aliasing
+### Aliasing
 
-**Aliasing** occurs when when two variable names point to the same location in memory. In other words, they can be used interchangeably. This can happen with non-primitive data types.
+**Aliasing** occurs when when two variable names point to the same location in memory. In other words, they can be used interchangeably. This can be an issue with non-primitive data types.
 
 ```python
 list_1 = [1, 2]
