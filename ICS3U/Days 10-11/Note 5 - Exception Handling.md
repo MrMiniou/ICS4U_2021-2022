@@ -11,7 +11,7 @@ For example, if you try to divide by zero, you get a message in the console sayi
 An **exception** is a problem that occurs while a program is running. When an exception occurs in Python, it is **raised**. When this happens and your program doesn't handle it, the program terminates abruptly. 
 
 
-In order to avoid a program from terminating abruptly, you should consider possible exceptions that could occur in your program.
+In order to avoid a program from terminating abruptly, we should consider possible exceptions that could occur in your program.
 
 Here is an example of a method that handles a division by zero error.
 
@@ -32,7 +32,7 @@ The content in the `except` block runs only when an exception such as `ZeroDivis
 
 ###Type Checking
 
-You can check the type of a variable using `type()`. This can be useful for ensuring that a variable is a particular data type.
+We can check the type of a variable using `type()`. This can be useful for ensuring that a variable is a particular data type.
 
 ```python
 print(type(3))  # prints "int"
@@ -45,7 +45,7 @@ print(type({}))  # prints "dict"
 
 ### Assert
 
-You can assert that a condition is true by using `assert()`. Whenever an `assert` statement is false, the program terminates abruptly.
+We can assert that a condition is true by using `assert()`. Whenever an `assert` statement is false, the program terminates abruptly.
 
 ```python
 user_input = input("Enter an integer:")
@@ -55,7 +55,7 @@ assert(type(user_input) == int)
 
 ### Raising Exceptions
 
-You can raise an exception at any time using the keyword `raise`.
+We can raise an exception at any time using the keyword `raise`.
 
 ```python
 user_input = input("Enter a positive integer: ")
