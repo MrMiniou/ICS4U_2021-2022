@@ -17,12 +17,16 @@ The graphics window will contain a frame for us to put our graphics on. The data
 ```Java
 // Initializes the frame and puts "Window Name" in the top bar
 JFrame frame = new JFrame("Window Name");
+
 // Makes the frame the maximum size on repl.it
 frame.setSize(800, 600);
+
 // Makes the background of the frame grey
 frame.setLayout(null);
+
 // This line is needed to make the frame appear
 frame.setVisible(true);
+
 // Makes the exit button stop the program
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 ```
