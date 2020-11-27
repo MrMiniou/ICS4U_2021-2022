@@ -5,12 +5,12 @@ In Java, an `enum` (short for **enumeration**) is like a class combined with an 
 Suppose you have a program that uses the days of the week. One option is to declare each of the days of the week as a constant and place them inside an array:
 
 ```java
-final int MONDAY = 0; TUESDAY = 1; WEDNESDAY = 2; THURSDAY = 3; FRIDAY = 4; SATURDAY = 5; SUNDAY = 6;
+final int MONDAY = 0, TUESDAY = 1, WEDNESDAY = 2, THURSDAY = 3, FRIDAY = 4, SATURDAY = 5, SUNDAY = 6;
 
-final String[] daysOfTheWeek = {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
+final int[] daysOfTheWeek = {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
 ```
 
-Here is what it looks like if we use `enum` instead. In repl.it, it has to be placed inside of a class but in other IDEs it can be placed inside or outside a class.
+Here is what it looks like if we use `enum` instead. In repl.it, this block of code has to be placed inside of a class, but in other IDEs it can be placed inside or outside a class.
 
 ```java
 public enum DayOfTheWeek {
@@ -29,6 +29,7 @@ for (DayOfTheWeek d: DayOfTheWeek.values() {
   System.out.println(d + ": " + d.ordinal());
 }
 ```
+The `values()` function here is similar to getting an array of each day of the week. The `ordinal()` function gets the position it appears in the definition of the `enum`, similar to an index of an array.
 
 If we want to check what day of the week a variable is, we can use a switch statement.
 
