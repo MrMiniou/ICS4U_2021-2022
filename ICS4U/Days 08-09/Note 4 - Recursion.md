@@ -4,7 +4,7 @@ Many of you have already taken, or are currently taking, the Grade 11 math cours
 
 In math, a **recursive function** is a discrete function whose definition includes the function itself. It requires at least one base case (which determines the edge of the domain).
 
-In computer science, a **recursive method** is a method that calls itself within the body of the method. The base case(s) determine(s) when the method stops running.
+In computer science, a **recursive function** is a function that calls itself within the body of the function. The base case(s) determine(s) when the method stops running.
 
 > For fun:
 > 
