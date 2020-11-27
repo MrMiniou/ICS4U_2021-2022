@@ -1,6 +1,6 @@
 ## Note – Stacks
 
-The **stack** is an abstract data type that is a collection of elements that are "stacked" on top of each other. Elements get added and removed from the top of the stack. The stack ADT is also known as LIFO (last in, first out) system. 
+A **stack** is an abstract data type. It is a collection of elements that are "stacked" on top of each other. Elements get added and removed from the top of the stack. The stack ADT is also known as LIFO (last in, first out) system. 
 
 These are some the typical operations of a stack ADT.
 
@@ -13,12 +13,12 @@ An example of a usage of the stack ADT is your browser history. Every time you v
 
 Java has a class called `Stack`. You need to import `java.util.Stack` in order to use it. Here are some of its methods. 
 
-| Method    | Explanation                                                  | Example                                      | Explanation                                                  |
-| --------- | ------------------------------------------------------------ | -------------------------------------------- | ------------------------------------------------------------ |
-| `Stack()` | Creates a new (empty) stack.                                 | `Stack<Integer> stackExample = new Stack();` | Creates a new stack of integers called `stackExample`. It is initialized to the empty stack. |
-| `empty()` | Returns `true` if the stack is empty, and `false` otherwise. | `stackExample.empty()`                       | Returns `true`, since `stackExample` is currently empty.     |
-| `push()`  | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)`                    | Adds `1234` to the top of `stackExample`.                    |
-| `peek()`  | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()`                        | Returns  `1234`.                                             |
-| `pop()`   | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()`                         | Removes the top element. Now, `stackExample` is empty again. |
+| Method | Explanation | Example | Explanation |
+| --- | ---| ---| ---|
+| `Stack()` | Creates a new (empty) stack. | `Stack<Integer> stackExample = new Stack();` | Creates a new stack of integers called `stackExample`. It is initialized to the empty stack. |
+| `empty()` | Returns `true` if the stack is empty, and `false` otherwise. | `stackExample.empty()` | Returns `true`, since `stackExample` is currently empty. |
+| `push()` | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)` | Adds `1234` to the top of `stackExample`. |
+| `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns `1234`. |
+| `pop()` | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()` | Removes the top element. Now, `stackExample` is empty again. |
 
 The `Stack` class is integrated using the `Vector` class, so you can also use any methods from `Vector` on a `Stack` object. 
