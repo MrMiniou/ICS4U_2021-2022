@@ -6,7 +6,7 @@ A **Graphical User Interface** (GUI, pronounced "gooey") is a way of interacting
 
 We'll be using JSwing to create GUIs in repl.it.
 
-###JSwing in Repl.it
+### JSwing in Repl.it
 
 To make a JSwing program, make sure you select **Java Swing** as the language instead of Java. This will provide an additional window for our graphics to appear.
 
