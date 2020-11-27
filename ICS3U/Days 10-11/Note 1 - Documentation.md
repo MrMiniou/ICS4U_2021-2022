@@ -28,6 +28,8 @@ for i in range(10):  # this is a for loop
 Good comments help make your code clear when it's not obvious what is going on. They can help explain your thinking so that someone reading it can understand how it works. Here is an example:
 
 ```python
+import math
+
 def is_a_square_number(n):
   if (n < 0):
     return False  # negative numbers can't be squares
