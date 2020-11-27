@@ -37,6 +37,8 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 * Graphical User Interfaces
 * Computer Science Research
+* Object-Oriented Programming
+* Enumerations
 
 ### Days 12-14
 
@@ -44,13 +46,10 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Array Lists
 * Sets
 * Maps
+* Stacks
+* Queues
 
-### Days 15-17
-
-* Object-Oriented Programming
-* Post-Secondary Opportunities
-
-### Days 18-22
+### Days 15-22
 
 * Culminating Task
-
+* Post-Secondary Opportunities
