@@ -22,7 +22,7 @@ You need to import `java.util.Queue` in order to use these classes. Here are som
 | `offer()`         | Adds an element to the queue, if possible.                   | Returns `true` (success) or `false` (failure).       | `queueExample.offer(5678);`                                  |
 | `element()`       | Returns the element at the front of the queue or throws `EmptyQueueException` if the queue is empty. | `queueExample.element();`                            | Returns `5678`.                                              |
 | `peek()`          | Returns the element at the front of the queue or returns `null` if the queue is empty. | `queueExample.peek();`                               | Returns `5678`.                                              |
-| `remove()`        | Returns the element at the front of the queue or throws `NoSuchElementException` if the queue is empty. | `queueExample.remove();`                             | Removes `5678`. Now, `queueExample` contains only `1234`.    |
-| `poll()`          | Returns the element at the front of the queue or returns `null` if the queue is empty. | `queueExample.poll();`                               | `Removes 1234`. Now, queueExample is empty again.            |
+| `remove()`        | Removes and returns the element at the front of the queue or throws `NoSuchElementException` if the queue is empty. | `queueExample.remove();`                             | Removes `5678`. Now, `queueExample` contains only `1234`.    |
+| `poll()`          | Removes and returns the element at the front of the queue or returns `null` if the queue is empty. | `queueExample.poll();`                               | `Removes 1234`. Now, queueExample is empty again.            |
 | `isEmpty()`       | Returns `true` if the queue is empty, and `false` otherwise. | `queueExample.isEmpty()`                             | Returns `true`, since `queueExample` is currently empty.     |
 
