@@ -17,7 +17,7 @@ In computer science, a **recursive function** is a function that calls itself wi
 
 One of the most classic examples of recursion is the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 34...
 
-The definition is *f(n) = f(n-1) + f(n-2), f(1) = f(2) = 1*, *n ∈ ℕ*. The base cases are *f(1) = 1* and *f(2) = 1*, which indicate that the first two values are 1 and 1. Every other value is calculated by adding the previous two values. 
+The definition is *f(n) = f(n-1) + f(n-2), f(1) = f(2) = 1*, *n ∈ ℕ*. The base cases are *f(1) = 1* and *f(2) = 1*, which indicate that the first two **terms** are 1 and 1. Every other term is calculated by adding the previous two terms.
 
 *ℕ* represents the set of natural numbers. However, it is debatable among mathematicians whether 0 is considered to be a natural number. You can often figure out from context which definition of "natural numbers" is used. Here, it is used to represent the positive integers. 0 is neither positive nor negative.
 
