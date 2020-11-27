@@ -1,6 +1,6 @@
 ## Note – Enumerations
 
-In Java, an `enum` (short for **enumeration**) is like a class combined with an array. They are used for defining an ordered sequence of constant-like values and can help make programs more readable than using an arrays of constants.
+In Java, an `enum` (short for **enumeration**) is like a class combined with an array. It is used for defining an ordered sequence of constant-like values and can help make programs more readable than using an arrays of constants.
 
 Suppose you have a program that uses the days of the week. One option is to declare each of the days of the week as a constant and place them inside an array:
 
