@@ -2,7 +2,7 @@
 
 A **stack** is an abstract data type (ADT). It is a collection of elements that are "stacked" on top of each other. Elements get added and removed from the top of the stack. The stack ADT is also known as LIFO (last in, first out) system. 
 
-These are some the typical operations of a stack ADT.
+These are some the typical operations of a stack ADT:
 
 * retrieve the item at the top of the stack
 * remove the item at the top of the stack
