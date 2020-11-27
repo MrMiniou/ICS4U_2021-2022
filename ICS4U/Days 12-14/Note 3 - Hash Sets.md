@@ -2,7 +2,7 @@
 
 ### Sets
 
-**Set** is an abstract data type. It is similar to a mathematical set in which every element is unique. It is simply a collection of items. Unlike an unsorted array or an unsorted array list, retrieving an element doesn't require a linear search; it can be retrieved instantaneously. This is due to the way that sets are stored.
+**Set** is an abstract data type (ADT). It is similar to a mathematical set in which every element is unique. It is simply a collection of items. Unlike an unsorted array or an unsorted array list, retrieving an element doesn't require a linear search; it can be retrieved instantaneously. This is due to the way that sets are stored.
 
 These are some the typical operations of a set. You don't need to know the symbols, although many of you have seen most of them before from a math course, so I've included them for reference.
 
