@@ -19,9 +19,9 @@ One of the most classic examples of recursion is the Fibonacci sequence: 1, 1, 2
 
 The definition is *f(n) = f(n-1) + f(n-2), f(1) = f(2) = 1*, *n ∈ ℕ*. The base cases are *f(1) = 1* and *f(2) = 1*, which indicate that the first two **terms** are 1 and 1. Every other term is calculated by adding the previous two terms.
 
-*ℕ* represents the set of natural numbers. However, it is debatable among mathematicians whether 0 is considered to be a natural number. You can often figure out from context which definition of "natural numbers" is used. Here, it is used to represent the positive integers. 0 is neither positive nor negative.
+*ℕ* represents the set of natural numbers. However, it is debatable among mathematicians whether 0 is considered to be a natural number. We can often figure out from context which definition of "natural numbers" is used. Here, it is used to represent the positive integers. 0 is neither positive nor negative.
 
-You could write a method to calculate the n<sup>th</sup> Fibonacci number like this:
+We could write a method to calculate the n<sup>th</sup> Fibonacci number like this:
 
 ```java
 /**
@@ -63,7 +63,7 @@ Let's try again with `fibonacci(6)`.
 
 Another classic example of a recursive function is the factorial operation, which is denoted by an exclamation mark. The value *n!* is the product of all the natural numbers up to and including *n*. The definition is *n! = n \* (n-1)*, *0! = 1! = 1*, *n ∈ ℕ*. 
 
-You could write a method to calculate *n!* like this:
+We could write a method to calculate *n!* like this:
 ```java
 /**
  * This method takes an integer n and returns the value of n!
@@ -82,7 +82,7 @@ public static int factorial(int n) {
 
 Recursion can be used to calculate the greatest common factor (GCF) between two integers, using the identities `gcf(a, b) == gcf(b, a % b)` and `gcf(a, 0) == a`. This process is called the Euclidean algorithm.
 
-You could write a method to calculate the GCF of two numbers like this:
+We could write a method to calculate the GCF of two numbers like this:
 
 ```java
 /**
