@@ -80,7 +80,7 @@ public static int factorial(int n) {
 
 ### Euclidean Algorithm 
 
-Recursion can be used to calculate the greatest common factor (GCF) between two integers, using the identities `gcf(a, b) == gcf(b, a % b)` and `gcf(a, 0) == a`. This process is called the Euclidean algorithm.
+Recursion can be used to calculate the greatest common factor (GCF) between two integers using the identities `gcf(a, b) == gcf(b, a % b)` and `gcf(a, 0) == a`. This process is called the Euclidean algorithm.
 
 We could write a method to calculate the GCF of two numbers like this:
 
