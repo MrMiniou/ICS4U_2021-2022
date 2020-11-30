@@ -66,3 +66,18 @@ elif user_input < 0:
   raise Exception("Your input was not a positive number!")
 ```
 
+We can be more specific about the type of exception by using any of ones that are built in instead of the generic name `Exception`. Here are a few of the ones we can raise:
+
+* `TypeError`: An operation or function cannot be applied to the specific data type(s).
+* `ValueError`: An operation or function cannot be applied to the specific value(s) even though it is the correct data type.
+
+```python
+user_input = input("Enter a positive integer: ")
+
+if type(user_input) !=  int:
+  raise TypeError("Your input was not an integer!")
+elif user_input < 0:
+  raise ValueError("Your input was not a positive number!")
+```
+
+The full list of built-in exceptions can be found here: https://docs.python.org/3/library/exceptions.html.
