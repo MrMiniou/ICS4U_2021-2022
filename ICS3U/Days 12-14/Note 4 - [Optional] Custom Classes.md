@@ -14,7 +14,7 @@ When we create a program using OOP, we often define our own custom classes.
 
 ### Custom Classes
 
-We can create our own custom classes using the keyword `class`. We can make our own fields and methods depending on what we want to do with the class. Here is an example of custom class for an enemy for an adventure game.
+We can create our own custom classes using the keyword `class`. A **field** is a variable inside of class and a **method** is a function inside of a class. We can make our own fields and methods depending on what we want to do with the class. Here is an example of custom class for an enemy for an adventure game. 
 
 ```python
 class Enemy:
