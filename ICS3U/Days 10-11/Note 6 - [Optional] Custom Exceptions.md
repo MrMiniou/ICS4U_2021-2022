@@ -21,4 +21,4 @@ if num_words != 1:
   raise WhitespaceError
 ```
 
-The keywords `class`, `__init__()`, `self`, and `super()` will be covered in the note *[Optional] Custom Classes* under *Days 12-13*.
+The keywords `class`, `__init__()`, and `self` will be covered in the note *[Optional] Custom Classes* under *Days 12-13*. and `super()` will be covered in the note*[Optional] Object Oriented Programming* under *Days 12-13*.
