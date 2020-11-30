@@ -148,7 +148,7 @@ You can use the following code to create an image icon for an image called icon.
 ImageIcon icon = new ImageIcon("icon.jpg");
 ```
 
-If the image is in a folder (not on the same level as *Main.java*), we can put "folder_name/" (with the actual name of the folder) in front of the filename. 
+If the image is in a folder (not in the same location as *Main.java*), we can put "folder_name/" (with the actual name of the folder) in front of the filename. 
 
 ```java
 ImageIcon icon = new ImageIcon("images/icon.jpg");
