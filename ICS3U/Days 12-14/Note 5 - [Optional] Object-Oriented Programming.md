@@ -11,7 +11,7 @@ You have been using all three methodologies in this course. OOP has the highest 
 
 ### Class Hierarchy
 
-In order to use OOP to its highest potential, it is important to understand the different ways in which a class is associated with another class. There are three types of associations: **aggregation**, **composition**, and **inheritance**. Aggregation
+In order to use OOP to its highest potential, it is important to understand the different ways in which a class is associated with another class. There are three types of associations: **aggregation**, **composition**, and **inheritance**. 
 
 
 ### Aggregation
