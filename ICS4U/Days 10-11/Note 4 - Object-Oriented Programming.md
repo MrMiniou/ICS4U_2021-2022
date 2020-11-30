@@ -15,7 +15,7 @@ In order to use OOP to its highest potential, it is important to understand the 
 
 
 ### Aggregation
-Aggregation can be referred to as a "has-a" association, and is a weak association. This occurs when a class (called the **superclass** or **parent class**) has a field that is an object belonging to another class (called the **subclass** or the **child class**). For example, if you have a class called `BoardGame` which represents a board game, you may have a field that represents a the dice that are used in the game, from a `Die` class. In other words, a `BoardGame` has-a `Die`. 
+Aggregation can be referred to as a "has-a" association and is a weak association. This occurs when a class (called the **superclass** or **parent class**) has a field that is an object belonging to another class (called the **subclass** or the **child class**). For example, if you have a class called `BoardGame` which represents a board game, you might have a field that represents the dice that are used in the game from a `Die` class. In other words, a `BoardGame` has-a `Die`. 
 
 Typically, in aggregation, the subclass can exist independly of the superclass. For example, once a board game is finished, the dice could still be used in the program for other purposes. Thus, when the `BoardGame` object is destroyed, the `Die` object isn't necessarily destroyed with it. The two classes may look something like this.
 
@@ -56,7 +56,7 @@ public class Die {
 ```
 
 ### Composition
-Composition can be referred to as a "owns-a" association, and is a strong association. It is similar to aggregation, except the subclass typically cannot exist independely of the superclass.
+Composition can be referred to as a "owns-a" association and is a strong association. It is similar to aggregation, except the subclass typically cannot exist independely of the superclass.
 
 Expanding on the previous example, the class called `BoardGame` class may require a `Board` object. Once the board game is over, the board doesn't serve a purpose anymore.  When the `BoardGame` object is destroyed, the `Board` object is mostly likely destroyed with it. Playing a physical board game is different, since you don't throw away the board and get a new one every time you play the game; however, this is how it typically how it works for virtual board games.  The `BoardGame` class may look something like this.
 
@@ -82,7 +82,7 @@ Whenever you're designing a program and are unsure whether two classes should us
 
 
 ### Inheritance
-Inheritance can be referred to as a "is-a" association, and is a very strong association. Unlike aggregation and composition, the subclass inherits all the fields and methods from the superclass. 
+Inheritance can be referred to as a "is-a" association and is a very strong association. Unlike aggregation and composition, the subclass inherits all the fields and methods from the superclass. 
 
 There are two cases:
 1. The "superclass" is an interface, and the subclass `implements` it.
@@ -128,7 +128,7 @@ public class Rectangle implements Shape {
 
 ```
 
-When you're creating an instance of a subclass, you can declare the type as the interface or the subclass.
+When you're creating an instance of a subclass, you can declare the type as the interface or the superclass.
 
 For example, these two lines accomplish essentially the same thing.
 ```java
@@ -140,7 +140,7 @@ ArrayList<Integer> arraylist = new ArrayList();
 ```
 
 ### Extending a Class
-You've seen the keyword `extends` in JSwing programs. The first line of the class in these programs is `public class Main extends javax.swing.JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
+You've seen the keyword `extends` in JSwing programs. The first line of the class in these programs is `public class Main extends JFrame {`. The `JFrame` class is what allows your program to display a GUI form using `JFrame` components.
 
 Similarly to a method in a subclass of an interface, a method in a subclass of a class can be overridden, too. 
 
