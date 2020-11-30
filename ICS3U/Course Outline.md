@@ -37,6 +37,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Aliasing
 * Documentation
 * Testing
+* Eval and Exec
 * Exception Handling
 * Computer Science Research
 
