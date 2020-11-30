@@ -154,7 +154,7 @@ If the image is in a folder (not in the same location as *Main.java*), we can pu
 ImageIcon icon = new ImageIcon("images/icon.jpg");
 ```
 
-To place this image onto `JButton` object called `buttonName`, we can use the following code:
+To place this image onto `JButton` (or `JLabel`) object called `buttonName`, we can use the following code:
 
 ```java
 buttonName.setIcon(icon);
@@ -162,13 +162,13 @@ buttonName.setIcon(icon);
 
 If your button/label and image are the same dimensions, the image should fit perfectly.
 
-To retrieve the current image on a button, we can use this:
+To retrieve the current image on a button/label, we can use this:
 
 ```java
 buttonName.getIcon();
 ```
 
-To remove an image from a button, we can use this:
+To remove an image from a button/label, we can use this:
 
 ```java
 buttonName.setIcon(null);
