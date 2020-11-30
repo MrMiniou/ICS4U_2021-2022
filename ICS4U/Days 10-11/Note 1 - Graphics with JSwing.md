@@ -137,3 +137,39 @@ clickMeButton.addActionListener(new ActionListener() {
   }
 });
 ```
+
+### JSwing Image Icons
+
+We can use the `ImageIcon class` to display images on `JButton` objects.
+
+You can use the following code to create an image icon for an image called icon.jpg as long as it's in the same location as *Main.java*.
+
+```java
+ImageIcon icon = new ImageIcon("icon.jpg");
+```
+
+If the image is in a folder, we can put "folder_name/" (with the actual name of the folder) in front of the filename. 
+
+```java
+ImageIcon icon = new ImageIcon("images/icon.jpg");
+```
+
+To place this image onto `JButton` object called `buttonName`, we can use the following code:
+
+```java
+buttonName.setIcon(icon);
+```
+
+If your button and image are the same dimensions, the image should fit perfectly onto the button. 
+
+To retrieve the current image on a button, we can use this:
+
+```java
+buttonName.getIcon();
+```
+
+To remove an image from a button, we can use this:
+
+```java
+buttonName.setIcon(null);
+```
