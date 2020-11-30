@@ -26,7 +26,7 @@ print(hex(id(x)))  # prints the address where 4 is stored (e.g. 0x7f10fda70740)
 
 Notice that the address of `x` changed when its value was reassigned. This behaviour happens with all primitive data types in Python.
 
-Non-primitive data types (a.k.a. composite data types) are all other data types such as `list`, `dict`, and `set`. These are **mutable** data types, meaning these variables don't move addresses when they are given a new value.
+Non-primitive data types (a.k.a. composite data types) are all other data types such as `list`, `dict`, and `set`. Most non-primitive data types are **mutable** data types, meaning these variables don't move addresses when they are given a new value. Exceptions include `tuple`, `decimal`, and `range`.
 
 ```python
 my_list = [1, 2]
