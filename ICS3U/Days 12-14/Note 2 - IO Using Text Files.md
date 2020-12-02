@@ -38,7 +38,7 @@ testing testing
 1 2 3
 ```
 
-We can use `read()` to store the entire contents of the file in a string. The following program will print `testing testing` `1 2 3` on two lines.
+We can use `read()` to store the entire contents of the file in a string. The following program will print `testing testing` and `1 2 3` on separate lines.
 
 ```python
 file = open("document.txt", "r")
