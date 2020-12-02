@@ -1,4 +1,4 @@
-## Note: IO Using Text Files
+## Note – IO Using Text Files
 
 ### I/O
 
