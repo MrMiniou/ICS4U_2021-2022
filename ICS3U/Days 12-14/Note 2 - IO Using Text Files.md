@@ -7,7 +7,7 @@
 
 ### Reading Text Files
 
-In Python, you can open a plaintext file using `open()` and read its contents using `readlines()`.  It's important that we also close the file using `close()` to prevent strange behaviours from happening. For example, if you forget to close the file, the program may appear like it's skipping over some parts.
+In Python, you can open a plaintext file using `open()` and read its contents using `read()` or `readlines()`.  It's important that we also close the file using `close()` to prevent strange behaviours from happening. For example, if you forget to close the file, the program may appear like it's skipping over some parts.
 
 Plaintext file extensions include *.txt*, *.csv*, *.tsv,* as well as files that are used for programming (*.py*, *.java*, *.c*, etc.).
 
@@ -15,7 +15,7 @@ We can open, read, and close a file like this:
 
 ```python
 file = open("document.txt", "r")  # Replace "document.txt" with the actual name of the file
-file_contents = file.readlines()
+file_contents = file.read()
 file.close()
 ```
 
@@ -30,16 +30,24 @@ The `r`  indicates that the file will be opened in **read mode**. The other mode
 
 The **cursor** is the location where the data gets written.
 
-The contents of the file get stored in a list, with each item being one line in the file. 
 
-If we have a file called `document.txt` and it contains the following:
+Suppose we have a file called `document.txt` and it contains the following:
 
 ```
 testing testing
 1 2 3
 ```
 
-...then the following program will print `["testing testing\n", "1 2 3"]`.
+We can use `readl()` to store the entire contents of the file in a string. The following program will print `testing testing` `1 2 3` on two lines.
+
+```python
+file = open("document.txt", "r")
+file_contents = file.read()
+print(file_contents)
+file.close()
+```
+
+We can also use `readlines()` to store the contents of the file in a list, with each item being one line in the file. Then the following program will print `["testing testing\n", "1 2 3"]`.
 
 ```python
 file = open("document.txt", "r")
@@ -56,12 +64,11 @@ If we want to read one "word" in the file at a time, we can do the following:
 
 ```python
 file = open("document.txt", "r")
-file_contents = file.readlines()
+file_contents = file.read()
+word_list = file_contents.split()
 
-for line in file_contents:
-  tokens = line.split()  # creates a list of tokens from the line
-  for token in tokens:
-    print(token)
+for token in word_list:
+  print(token)
   
 file.close()
 ```
