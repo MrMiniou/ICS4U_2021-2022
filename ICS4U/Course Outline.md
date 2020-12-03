@@ -35,19 +35,19 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 10-11
 
-* Graphical User Interfaces
-* Object-Oriented Programming
-* Enumerations
-* Computer Science Research
-
-### Days 12-14
-
-* Paired Programming
 * Array Lists
 * Sets
 * Maps
 * Stacks
 * Queues
+* Computer Science Research
+
+### Days 12-14
+
+* Paired Programming
+* Graphical User Interfaces
+* Object-Oriented Programming
+* Enumerations
 
 ### Days 15-22
 
