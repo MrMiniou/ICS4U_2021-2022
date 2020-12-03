@@ -20,9 +20,7 @@ Here is a comparison of some of the ways to use arrays and array lists in Java.
 
 N.B.: You need to import `java.util.ArrayList` or `java.util.*` in order for these `ArrayList` methods to work.
 
-Java also has a class called `List`, which is similar to `ArrayList`. You won't be required to use `List` in this course, but you may use it if you find it useful.
-
-### Array List of Primitive Data Types
+### Array List of "Primitive" Data Types
 
 Array Lists can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. 
 
