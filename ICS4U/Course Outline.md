@@ -35,7 +35,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 10-11
 
-* Array Lists
+* Lists
 * Sets
 * Maps
 * Stacks
