@@ -18,7 +18,7 @@ print("The answer is", eval(exp))
 
 ```
 
-The `eval()` function also works for parsing lists and dictionaries.
+The `eval()` function also works for parsing lists and dictionaries. For example, if the user enters `"[1, 2, 3, 4]"`, it will get stored as the list `[1, 2, 3, 4]`.
 
 ```python
 a_list = eval(input("Enter a list: "))
