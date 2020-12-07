@@ -46,7 +46,7 @@ num_list = input("Enter a list of numbers: ")
 exec("length = len(" + num_list + ")")
 print("Your list has", length, "numbers.")
 
-``
+```
 In thie example above, even though there is a red squiggly line under the print statement, it is not causing any errors since `length` gets defined when `exec()` is called.
 
 
