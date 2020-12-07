@@ -17,8 +17,9 @@ Java has a class called `Stack`. You need to import `java.util.Stack` in order t
 | --- | ---| ---| ---|
 | `Stack()` | Creates a new (empty) stack. | `Stack<Integer> stackExample = new Stack();` | Creates a new stack of integers called `stackExample`. It is initialized to the empty stack. |
 | `empty()` | Returns `true` if the stack is empty, and `false` otherwise. | `stackExample.empty()` | Returns `true`, since `stackExample` is currently empty. |
-| `push()` | Adds an elements to the top of the stack. Throws `EmptyStackException` if the stack is empty. | `stackExample.push(1234)` | Adds `1234` to the top of `stackExample`. |
-| `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns `1234`. |
-| `pop()` | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()` | Removes the top element. Now, `stackExample` is empty again. |
+| `add()` | Adds an elements to the top of the stack. | `stackExample.add(12)` | Adds `12` to the top of `stackExample`. |
+| `push()` | Adds an elements to the top of the stack. | `stackExample.push(34)` | Adds `34` to the top of `stackExample`. |
+| `peek()` | Returns the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.peek()` | Returns `34`. |
+| `pop()` | Removes the top element. Throws `EmptyStackException` if the stack is empty. | `stackExample.pop()` | Removes `34` from `stackExample`. |
 
 The `Stack` class is integrated using the `Vector` class, so you can also use any methods from `Vector` on a `Stack` object. 
