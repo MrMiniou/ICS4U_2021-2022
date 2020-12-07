@@ -131,6 +131,10 @@ field.setEditable(true); // Allows the user to enter text into the text field
 
 We can get the text in a label, text field, and text area using `getText()`,  and we can change the text using `setText`.
 
+``` java
+field.setText(field.getText() + "123"); // Adds "123" to the end of the text field
+```
+
 We can also add **scrollers** to text areas so that they can display an unlimited amount of text. Here is an example:
 
 ```Java
