@@ -75,9 +75,13 @@ A frame can have many components on it. Here are some examples:
 * Dropdown Menus
 * Sliders
 
-In this example, we'll be focusing on labels, text fields, text areas, scrollers, and buttons.
+In this example, we'll be focusing on labels, text fields, text areas, scrollers, and buttons. These components have similar built-in methods.
 
-Labels are used to display a short line of text. They are designed to display only one line of text. Here is an example:
+The `setBounds()` method is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
+
+The `setFont()` method is to set the font name, font style, and font size fo a component.
+
+**Labels** are used to display a short line of text. They are designed to display only one line of text. Here is an example:
 
 ```Java
 JLabel prompt = new JLabel("Enter amount: $");
@@ -90,11 +94,8 @@ prompt.setFont(new Font(prompt.getFont().getName(), Font.PLAIN, 20));
 frame.add(prompt);
 ```
 
-The `setBounds()` method is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
 
-The syntax is quite similar for other components.
-
-Text fields are boxes that users can enter text into. They are designed to display only one line of text. Here is an example:
+**Text fields** are boxes designed for users to enter a single line of text into. Here is an example:
 
 ```Java
 JTextField field = new JTextField("$0.00");
@@ -107,7 +108,7 @@ field.setFont(new Font(field.getFont().getName(), Font.PLAIN, 20));
 frame.add(field);
 ```
 
-Text areas are large boxes that users can enter text into. They are designed to display multiple lines of text. Here is an example:
+**Text areas** are large boxes designed for users to enter multiple lines of text into. Here is an example:
 
 ```Java
 JTextArea area = new JTextArea("$0.00");
@@ -119,16 +120,18 @@ area.setFont(new Font(area.getFont().getName(), Font.PLAIN, 20));
 // Adds text field to frame
 frame.add(area);
 ```
-If we don't want the user to enter text into a text field or text area (i.e. they are being used to jsut display text), we can use the following code:
+
+If we don't want the user to enter text into a text field or text area (i.e. they are being used to just display text), we can use the following code:
+
 
 ```java
 field.setEditable(false); // Prevents the user from entering text into the text field
 field.setEditable(true); // Allows the user to enter text into the text field
 ```
 
-We can get the text in a label, text fieldm and text area using `getText()` and we can change the text using `setText`.
+We can get the text in a label, text field, and text area using `getText()`,  and we can change the text using `setText`.
 
-We can also add scrollers to text areas so that they can display an unlimited amount of text. Here is an example:
+We can also add **scrollers** to text areas so that they can display an unlimited amount of text. Here is an example:
 
 ```Java
 // The first three lines are the same as above
@@ -145,7 +148,7 @@ scroller.setViewportView(amountField);
 frame.add(wordsGuessedScroller);
 ```
 
-Buttons are clickable boxes.
+**Buttons** are clickable boxes. 
 
 ```Java
 JButton calculateButton = new JButton("Calculate");
@@ -155,6 +158,7 @@ calculateButton.setBounds(425, 500, 100, 50);
 // Adds button to frame
 frame.add(calculateButton);
 ```
+
 We can enable/disable buttons like this:
 
 ```java
