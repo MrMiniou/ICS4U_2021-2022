@@ -191,7 +191,7 @@ clickMeButton.addActionListener(new ActionListener() {
 
 Similar to an action listener, key listeners "listen" for a specific key to be pressed or released.
 
-For example, you can allow a user to press ENTER to as a keyboard shortcut for pressing a button. Key listeners are added to components, so the keyboard shortcut will only work when your cursor is in the component with the key listener.
+For example, we can allow a user to press ENTER to as a keyboard shortcut for pressing a button. Key listeners are added to components, so the keyboard shortcut will only work when your cursor is in the component with the key listener.
 
 ```java
 textFieldName.addKeyListener(new KeyAdapter() { 
@@ -204,13 +204,13 @@ textFieldName.addKeyListener(new KeyAdapter() {
 });
 ```
 
-You can find the full list of key codes in the Java Docs: https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyEvent.html.
+The full list of key codes is in the Java Docs: https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyEvent.html.
 
 ### JSwing Image Icons
 
 We can use the `ImageIcon` class to display images on `JLabel` and `JButton` objects.
 
-You can use the following code to create an image icon for an image called icon.jpg as long as it's in the same location as *Main.java*.
+We can use the following code to create an image icon for an image called icon.jpg as long as it's in the same location as *Main.java*.
 
 ```java
 ImageIcon icon = new ImageIcon("icon.jpg");
