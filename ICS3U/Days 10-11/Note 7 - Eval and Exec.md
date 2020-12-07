@@ -16,7 +16,16 @@ The `eval()` function can be useful when an expression you want to evaluate is s
 exp = input("Enter a math expression: ")
 print("The answer is", eval(exp))
 
-``
+```
+
+The `eval()` function also works for parsing lists and dictionaries.
+
+```
+a_list = eval(input("Enter a list: "))
+
+print("Your list has", len(a_list), "items.")
+```
+
 
 ### Exec
 
