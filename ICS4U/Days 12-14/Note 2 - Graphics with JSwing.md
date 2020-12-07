@@ -68,14 +68,16 @@ A frame can have many components on it. Here are some examples:
 
 * Labels
 * Text Fields
+* Text Areas
+* Scrollers
 * Buttons
 * Checkboxes
 * Dropdown Menus
 * Sliders
 
-In this example, we'll be focusing on text fields, labels, and buttons.
+In this example, we'll be focusing on labels, text fields, text areas, scrollers, and buttons.
 
-The example below is for a label:
+Labels are used to display a short line of text. They are designed to display only one line of text. Here is an example:
 
 ```Java
 JLabel prompt = new JLabel("Enter amount: $");
@@ -90,18 +92,60 @@ frame.add(prompt);
 
 The `setBounds()` method is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
 
-The syntax is quite similar for other components:
+The syntax is quite similar for other components.
+
+Text fields are boxes that users can enter text into. They are designed to display only one line of text. Here is an example:
 
 ```Java
-JTextField amountField = new JTextField("0.00");
+JTextField field = new JTextField("$0.00");
 // Top-left corner is at (200, 20)
 // Size is 400x50
-amountField.setBounds(200, 20, 400, 50);
+field.setBounds(200, 20, 400, 50);
 // Font size is 20
-amountField.setFont(new Font(amountField.getFont().getName(), Font.PLAIN, 20));
+field.setFont(new Font(field.getFont().getName(), Font.PLAIN, 20));
 // Adds text field to frame
-frame.add(amountField);
+frame.add(field);
 ```
+
+Text areas are large boxes that users can enter text into. They are designed to display multiple lines of text. Here is an example:
+
+```Java
+JTextArea area = new JTextArea("$0.00");
+// Top-left corner is at (200, 20)
+// Size is 400x50
+area.setBounds(200, 20, 400, 50);
+// Font size is 20
+area.setFont(new Font(area.getFont().getName(), Font.PLAIN, 20));
+// Adds text field to frame
+frame.add(area);
+```
+If we don't want the user to enter text into a text field or text area (i.e. they are being used to jsut display text), we can use the following code:
+
+```java
+field.setEditable(false); // Prevents the user from entering text into the text field
+field.setEditable(true); // Allows the user to enter text into the text field
+```
+
+We can get the text in a label, text fieldm and text area using `getText()` and we can change the text using `setText`.
+
+We can also add scrollers to text areas so that they can display an unlimited amount of text. Here is an example:
+
+```Java
+// The first three lines are the same as above
+JTextArea area = new JTextArea("$0.00");
+area.setBounds(200, 20, 400, 50);
+area.setFont(new Font(area.getFont().getName(), Font.PLAIN, 20));
+// Makes the vertical scrollbar always show and the horizontal scrollbar never show
+JScrollPane scroller = new JScrollPane(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+// Makes the size and location of the scroller the same as the text area
+scroller.setBounds(200, 20, 400, 50);
+// Attaches the scroller to the text area
+scroller.setViewportView(amountField);
+// Adds the scroller (and not the text area) to frame
+frame.add(wordsGuessedScroller);
+```
+
+Buttons are clickable boxes.
 
 ```Java
 JButton calculateButton = new JButton("Calculate");
@@ -111,15 +155,12 @@ calculateButton.setBounds(425, 500, 100, 50);
 // Adds button to frame
 frame.add(calculateButton);
 ```
+We can enable/disable buttons like this:
 
-We can get the text in a label or a text field using `getText()` and we can change the text using `setText`.
-
-For example, this line makes the previous text field blank:
-
-```Java
-amountField.setText("");
+```java
+calculateButton.setEnabled(false); // disables the button
+calculateButton.setEnabled(true); // enables the button
 ```
-
 
 ### JSwing Action Listeners
 
@@ -137,6 +178,25 @@ clickMeButton.addActionListener(new ActionListener() {
   }
 });
 ```
+
+### JSwing Key Listeners
+
+Similar to an action listener, key listeners "listen" for a specific key to be pressed or released.
+
+For example, you can allow a user to press ENTER to as a keyboard shortcut for pressing a button. Key listeners are added to components, so the keyboard shortcut will only work when your cursor is in the component with the key listener.
+
+```java
+textFieldName.addKeyListener(new KeyAdapter() { 
+  public void keyReleased(KeyEvent evt) {
+    // VK_Enter is the key code for the ENTER key
+    if (evt.getKeyCode() == VK_ENTER) {
+      // Do something here
+    }
+  }
+});
+```
+
+You can find the full list of key codes in the Java Docs: https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyEvent.html.
 
 ### JSwing Image Icons
 
