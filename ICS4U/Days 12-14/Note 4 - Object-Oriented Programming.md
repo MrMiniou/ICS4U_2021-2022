@@ -112,7 +112,7 @@ public class Rectangle implements Shape {
     
   public Rectangle(double s1, double s2) {
     length = Math.max(s1, s2);
-    width = Math.min(s1, s2);
+     width = Math.min(s1, s2);
   }
     
   @Override
@@ -131,6 +131,7 @@ public class Rectangle implements Shape {
 When you're creating an instance of a subclass, you can declare the type as the interface or the superclass.
 
 For example, these two lines accomplish essentially the same thing.
+
 ```java
 List<Integer> arraylist = new ArrayList();
 ```
@@ -150,8 +151,6 @@ Here is an example of a custom class that extends a custom abstract class
 
 ```java
 public abstract class Shape {
-
-  public final int numSides;
   public abstract double perimeter(); 
   public abstract double area();
 }
