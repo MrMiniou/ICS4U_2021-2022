@@ -39,6 +39,7 @@ Functions in computer science may look different to functions in math, but they 
 | Return Value (Value of Dependent Variable) | *4x + 2y - 1/z* | `4*x + 2*y - 1.0/z` |
 | Other Information |  | `public static`: The method is accessible throughout the entire program. <br/></br>`double` (before `foo`): The method returns a double.<br/></br> `double` (before `x`, `y`, and `z`): The parameters `x`, `y`, and `z` are double values. |
 | Example | *f(7, -3, 1) = 4(7) + 2(-3) - 1/1 = 28 - 6 - 1 = 21* | `double a = foo(7, -3, 1)`<br/></br>`// the value of a is initialized to 21.0` |
+
 In math, *f*, *g*, and *h* are generic names for functions. In computer science, `foo`, `bar`, and `baz` are generic names for functions. You can also come up with your own dummy names for functions that aren't supposed to be meaningful. I'm quite fond of `bloop`.
 
 In computer science, **parameters** are the variable names used in a method. **Arguments** are the values of the parameters you use when you are calling a method. In the example at the bottom of the previous table, the parameters are x, y, and z, and the arguments are 7, -3, and 1.
