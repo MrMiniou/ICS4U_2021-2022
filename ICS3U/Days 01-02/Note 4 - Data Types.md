@@ -2,17 +2,17 @@
 
 ### Definitions
 
-A **variable** is value that can change over time. 
+* A **variable** is value that can change over time. 
 
-A **constant** is a value that cannot change over time. 
+* A **constant** is a value that cannot change over time. 
 
-The **scope** of a variable refers to where and when variable can be used.
+* The **scope** of a variable refers to where and when variable can be used.
 
-A **local variable** is a variable that is declared within a local scope. It may be used only within the context (e.g. a function or a loop) it was declared in. It is lost when its context is completed.
+* A **local variable** is a variable that is declared within a local scope. It may be used only within the context (e.g. a function or a loop) it was declared in. It is lost when its context is completed.
 
-A **global variable** is a variable that is declared within a global scope. It may be used throughout the entire program.
+* A **global variable** is a variable that is declared within a global scope. It may be used throughout the entire program.
 
-A **data type** is the kind of data that a variable can store.
+* A **data type** is the kind of data that a variable can store.
 
 All data types are either primitive or composite. A **primitive data type** (a.k.a. a **basic data type**) represents a single piece of information. If a data type isn't primitive, it is a **composite data type**. Whether a data type is primitive or composite depends on the programming language. Here are the four primitive data types in Python. 
 
