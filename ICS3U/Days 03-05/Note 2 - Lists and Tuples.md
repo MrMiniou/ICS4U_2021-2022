@@ -16,7 +16,18 @@ groceries = ["bread", "milk", "potato"]
 stuff = [2, "potato", True, 7.2, "c"]
 ```
 
-  
+### Checking Items in a List
+
+To check whether a particular item is in a list, we can use `in`. We can also use `not in` to check whether it is not in the list.
+
+```python
+groceries = ["bread", "milk", "potato"]
+
+print("bread" in groceries)  # prints True
+print("ice cream" in groceries)  # prints False
+print("eggs" not in groceries)  # prints True
+
+```
 
 ### Accessing Items in a List
 
