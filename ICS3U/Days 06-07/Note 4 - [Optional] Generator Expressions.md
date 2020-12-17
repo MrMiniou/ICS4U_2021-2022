@@ -16,8 +16,24 @@ We could also accomplish this by using a generator expression with `sum()`:
 sum(n for n in range(101))
 ```
 
-The difference is that the first approach creates a list and sums up all the items in the list, whereas the second approach generates and evaluates the expression `0 + 1 + 2 + ... + 100 + 101`.
+The difference is that the first approach creates a list and sums up all the items in the list, whereas the second approach generates and evaluates the expression `0 + 1 + 2 + ... + 99 + 100`.
+
+We can also use conditional statements in generator expressions. For example, this generates an expression for the sum of all the odd numbers from 1 to 100:
+
+```python
+sum(n for n in range(101) if n % 2 == 1)
+```
 
 Consider a program that finds the largest value in a dictionary, `d`.
 
-We could accomplish this by calling `max(d.values())`, but it is more efficient (in terms of both memory usage and runtime) to use a generator expression: `max(d[key] for key in d)`.
+We could accomplish this by calling the following:
+
+```python
+max(d.values())
+```
+
+...but it is more efficient (in terms of both memory usage and runtime) to use a generator expression: 
+
+```python
+max(d[key] for key in d)
+```
