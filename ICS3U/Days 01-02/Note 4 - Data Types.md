@@ -8,9 +8,9 @@
 
 * The **scope** of a variable refers to where and when variable can be used.
 
-* A **local variable** is a variable that is declared within a local scope. It may be used only within the context (e.g. a function or a loop) it was declared in. It is lost when its context is completed.
+* A **local variable** is a variable that is declared within a local scope. It may be accessed and modified only within the context (e.g. a function or a loop) it was declared in. It is lost when its context is completed.
 
-* A **global variable** is a variable that is declared within a global scope. It may be used throughout the entire program.
+* A **global variable** is a variable that is declared within a global scope. It may be accesssed (but not necessarily modified) throughout the entire program.
 
 * A **data type** is the kind of data that a variable can store.
 
@@ -23,7 +23,7 @@ All data types are either primitive or composite. A **primitive data type** (a.k
 | String    | Text.  It consists of individual characters. Strings are enclosed in single quotation marks `'` or double quotation marks `"`. |
 | Boolean   | The values `True` or `False`.                                |
 
-When you are mentioning a variable or a constant for the first time, you must **assign** a value to it.
+In Python, when you are mentioning a variable or a constant for the first time, you must **assign** a value to it.
 
 ```python
 height = 10 # we have created the variable height and assigned a value of 10 to it
