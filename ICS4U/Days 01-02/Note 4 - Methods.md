@@ -61,10 +61,10 @@ When we create our own methods, we should document them, too.
 
 ```java
 /**
- * This method takes the length and width of a rectangle and returns the rectangle's area.
+ * Takes the length and width of a rectangle and returns the rectangle's area.
  * @param l the length of the rectangle
  * @param w the width of the rectangle
- * @return the area of the rectangle with length l and width w
+ * @return the area of the rectangle
  */
 ```
 When you are documenting a method, the following information should be stated:
@@ -75,11 +75,11 @@ When you are documenting a method, the following information should be stated:
 
 ```java
 /**
- * This method takes the side lengths of a triangle and returns the triangle's perimeter.
+ * Takes the side lengths of a triangle and returns the triangle's perimeter.
  * @param a the first side length of the triangle
  * @param b the second side length of the triangle
  * @param c the third side length of the triangle
- * @return the perimeter of the triangle with side lengths a, b, and c
+ * @return the perimeter of the triangle
  */ 
 public static double perimeter(double a, double b, double c) {
     return a + b + c;
@@ -89,13 +89,11 @@ We can call the method above from `main()`.
 
 ```java
 public static void main() {
-    System.out.println(perimeter(4, 2.6, 8.1)); // prints 14.7
+  System.out.println(perimeter(4, 2.6, 8.1)); // prints 14.7
 }
 ```
 
 If you don't want a method to be called from a class other than the one it is in, you can use the modifier `private` instead of `public` when you're defining the method.
-
-
 
 
 ### Using Built-In Methods
@@ -104,7 +102,6 @@ The following content was in *Note – Data Types*.
 > The [Java Application Program Interface](https://docs.oracle.com/javase/7/docs/api/) (API) is a collection of prewritten packages, classes, and interfaces. You can use it to find out what packages, classes, and interfaces exist and how you can use them when you are writing code in Java. 
 >    
 > For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is **pow(double a, double b)**. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
-
 
 Let's look at some more of the built-in methods in `Math`.
 * `Math.max()` compares two values and returns the largest value.
