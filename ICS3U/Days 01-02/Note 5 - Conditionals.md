@@ -12,10 +12,10 @@ Here are all the operators you can use in Python to create Boolean expressions. 
 | --- | --- | --- | --- | --- |
 | Less Than | `<` | Comparison Operator | `3 < 5 # True` | 3 is less than 5, so the expression is `True`. |
 | Greater Than | `>` | Comparison Operator | `3 > 5 # False` | 3 is not greater than 5, so the expression is `False`. |
-| Less Than or Equal To | `<=` | Comparison Operator | `3 <= 5 # True`	| 3 is less than or equal to 5, so the expression is `True`.<br></br> `<=` is supposed to look like the ≤ symbol. |
-| Greater Than or Equal To | `>=` | Comparison Operator | `3 >= 5 # False`	| 3 is neither greater than nor equal to 5, so the expression is false. </br></br><br />`>=` is supposed to look like the ≥ symbol. |
+| Less Than or Equal To | `<=` | Comparison Operator | `3 <= 5 # True`	| 3 is less than or equal to 5, so the expression is `True`.<br /> `<=` is supposed to look like the ≤ symbol. |
+| Greater Than or Equal To | `>=` | Comparison Operator | `3 >= 5 # False`	| 3 is neither greater than nor equal to 5, so the expression is false.<br />`>=` is supposed to look like the ≥ symbol. |
 | Equals | `==` | Equality Operator | `3 == 5 # False`	| 3 is not equal to 5, so the expression is false.<br/></br>Mixing up `=` and `==` is a notorious error in computer science. This applies to many programming languages, not just Python. |
-| Not Equals | `!=` | Equality Operator | `3 != 5 # True`	| 3 is not equal to 5, so the expression is `True`. |
+| Not Equals | `!=` | Equality Operator | `3 != 5 # True`	| 3 is not equal to 5, so the expression is `True`.<br />`!=` is supposed to look like the ≠ symbol.  |
 | NOT | `not` | Boolean Operator | `not (3 < 5) # False`	| The statement in the parentheses is `True`, so the expression is the negation of that, which is `False`. |
 | AND | `and` | Boolean Operator | `(3 < 5) and (3 > 5) # False`	| At least one of those two statements is `False`, so the expression is `False`. |
 | OR | `or` | Boolean Operator | `(3 < 5) or (3 > 5) # True`	| At least one of those two statements is `True`, so the expression is `True`. |
@@ -52,3 +52,37 @@ If you have multiple `if` blocks followed by an `else` block, the `else` block w
 In general, if the conditions are mutually exclusive (i.e. they can't hold true at the same time), you should use `if` followed by `elif` rather than `if` followed by another `if`.
 
 
+### Boolean Operators
+
+When can are use `and` or `or` to combine short Boolean expressions to make longer ones:
+
+```python
+if mark < 0 or mark > 100:
+  print("That is not a valid mark.")
+
+```
+
+```python
+if num % 3 == 0 and num % 5 == 0:
+  print("That number is a multiple of 3 and 5")
+
+```
+
+A common mistake is to use `or` the exact same way we use it in English:
+
+```python
+if answer == "yes" or "no":  # This does not work as expected; it seems to always be True
+  print(answer)
+else:
+  print("Your answer must be yes or no").
+ ```
+ 
+The mistake here is that `or` combines the Boolean expressions `answer == "yes"` and `"no"`. All non-empty strings in Python become `True` when they are converted into a Boolean value. Here is the correction:
+ 
+ 
+```python
+if answer == "yes" or answer == "no":  # This works
+  print(answer)
+else:
+  print("Your answer must be yes or no").
+ ```
