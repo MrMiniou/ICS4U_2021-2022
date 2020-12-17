@@ -16,7 +16,7 @@ We could also accomplish this by using a generator expression with `sum()`:
 sum(n for n in range(101))
 ```
 
-The difference is that the first approach creates a list and sums up all the items in the list, whereas the second approach generates and evaluates the expression `0 + 1 + 2 + ... + 99 + 100`.
+The difference is that the first approach creates a list and sums up all the items in the list, whereas the second approach generates the expression `0 + 1 + 2 + ... + 99 + 100`.
 
 We can also use conditional statements in generator expressions. For example, this generates an expression for the sum of all the odd numbers from 1 to 100:
 
