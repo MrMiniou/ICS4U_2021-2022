@@ -29,6 +29,7 @@ A conditional statements only run when a condition is met. We use Boolean expres
 The most common type of conditional statement is called an **if statement.**
 
 Here is an example of an *if* statement.
+
 ```python
 number = int(input("Pick a number between 1 and 10: "))
 
@@ -39,13 +40,14 @@ elif number < 1:
 else:
   print("Thanks.")
 ```
-* An `if` block runs only if the condition is `true`. 
-* `elif` is short for "else if". Any `elif` blocks run only if all the previous conditions in the conditional structure are `false` (the "else" in `elif`) and the new condition is true (the "if" in else if).
-* An `else` block runs only if all the previous conditions in the conditional structure are `false`.
+
+* An `if` block runs only if the condition is `True`. 
+* `elif` is short for "else if". Any `elif` blocks run only if all the previous conditions in the conditional structure are `False` (the "else" in `elif`) and the new condition is true (the "if" in else if).
+* An `else` block runs only if all the previous conditions in the conditional structure are `False`.
 
 In any conditional structure, you may have as many or as few `elif` blocks as you wish. You may have no more than one `else` block. 
 
-If you have multiple `if` blocks followed by an `else` block, the `else` block will run if the condition in the most `if` was `false`. 
+If you have multiple `if` blocks followed by an `else` block, the `else` block will run if the condition in the most `if` was `False`. 
 
 In general, if the conditions are mutually exclusive (i.e. they can't hold true at the same time), you should use `if` followed by `elif` rather than `if` followed by another `if`.
 
