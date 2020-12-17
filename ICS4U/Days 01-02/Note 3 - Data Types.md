@@ -155,8 +155,8 @@ These are all the examples of casting that can be done in Java:
 Here are some examples of methods used for casting:
 
 ```java
-int num = Integer.parseInt("6") // this changes the string "6" into the integer 6
-String total = Integer.toString(6) // this changes the integer 6 into the string "6"
+int num = Integer.parseInt("6"); // this changes the string "6" into the integer 6
+String total = Integer.toString(6); // this changes the integer 6 into the string "6"
 ```
 
 The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running.
