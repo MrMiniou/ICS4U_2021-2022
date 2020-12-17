@@ -10,15 +10,15 @@ Here are all the operators you can use in Python to create Boolean expressions. 
 
 | Operator Name | Operator Symbol | Category | Example | Explanation |
 | --- | --- | --- | --- | --- |
-| Less Than | `<` | Comparison Operator | `3 < 5 # true` | 3 is less than 5, so the expression is `true`. |
-| Greater Than | `>` | Comparison Operator | `3 > 5 # false` | 3 is not greater than 5, so the expression is `false`. |
-| Less Than or Equal To | `<=` | Comparison Operator | `3 <= 5 # true`	| 3 is less than or equal to 5, so the expression is `true`.<br></br> `<=` is supposed to look like the ≤ symbol. |
-| Greater Than or Equal To | `>=` | Comparison Operator | `3 >= 5 # false`	| 3 is neither greater than nor equal to 5, so the expression is false. </br></br><br />`>=` is supposed to look like the ≥ symbol. |
-| Equals | `==` | Equality Operator | `3 == 5 # false`	| 3 is not equal to 5, so the expression is false.<br/></br>Mixing up `=` and `==` is a notorious error in computer science. This applies to many programming languages, not just Python. |
-| Not Equals | `!=` | Equality Operator | `3 != 5 # true`	| 3 is not equal to 5, so the expression is `true`. |
-| NOT | `not` | Boolean Operator | `not (3 < 5) # false`	| The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
-| AND | `and` | Boolean Operator | `(3 < 5) and (3 > 5) # false`	| At least one of those two statements is `false`, so the expression is `false`. |
-| OR | `or` | Boolean Operator | `(3 < 5) or (3 > 5) # true`	| At least one of those two statements is `true`, so the expression is `true`. |
+| Less Than | `<` | Comparison Operator | `3 < 5 # True` | 3 is less than 5, so the expression is `True`. |
+| Greater Than | `>` | Comparison Operator | `3 > 5 # False` | 3 is not greater than 5, so the expression is `False`. |
+| Less Than or Equal To | `<=` | Comparison Operator | `3 <= 5 # True`	| 3 is less than or equal to 5, so the expression is `True`.<br></br> `<=` is supposed to look like the ≤ symbol. |
+| Greater Than or Equal To | `>=` | Comparison Operator | `3 >= 5 # False`	| 3 is neither greater than nor equal to 5, so the expression is false. </br></br><br />`>=` is supposed to look like the ≥ symbol. |
+| Equals | `==` | Equality Operator | `3 == 5 # False`	| 3 is not equal to 5, so the expression is false.<br/></br>Mixing up `=` and `==` is a notorious error in computer science. This applies to many programming languages, not just Python. |
+| Not Equals | `!=` | Equality Operator | `3 != 5 # True`	| 3 is not equal to 5, so the expression is `True`. |
+| NOT | `not` | Boolean Operator | `not (3 < 5) # False`	| The statement in the parentheses is `True`, so the expression is the negation of that, which is `False`. |
+| AND | `and` | Boolean Operator | `(3 < 5) and (3 > 5) # False`	| At least one of those two statements is `False`, so the expression is `False`. |
+| OR | `or` | Boolean Operator | `(3 < 5) or (3 > 5) # True`	| At least one of those two statements is `True`, so the expression is `True`. |
 
 ### Conditional Statements
 
