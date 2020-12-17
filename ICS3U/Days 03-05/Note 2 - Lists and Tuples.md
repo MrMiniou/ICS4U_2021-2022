@@ -124,7 +124,7 @@ print(groceries)  # prints ["bread", "milk", "potato", "banana", "cereal"]
 
 ### Searching Through Lists
 
-We can use a *for* loop to iterate through a list by looking at each item one by one.
+We can use a `for` loop to iterate through a list by looking at each item one by one.
 
 ```python
 groceries = ["bread", "milk", "potato"]
@@ -144,7 +144,6 @@ for index in range(len(groceries)) {
 }
 ```
 
- 
 
 ### Sorting Lists
 
@@ -159,7 +158,6 @@ print(groceries)  # prints ["banana", "bread", "cereal", milk", "potato"]
 ```
 
 
-
 We can also reverse the items in a list using `reverse()`. If we want the items to be in reverse alphanumeric order, we can use `sort()` followed by `reverse()`.
 
 ```python
@@ -170,11 +168,8 @@ groceries.sort().reverse()
 print(groceries)  # prints ["potato", "milk", "cereal", "bread", "banana"]
 ```
 
-
-
 N.B.: When you sort a list, the characters are sorted based on the order of their individual [ASCII](http://www.asciitable.com) characters. In the ASCII chart, all upper case letters come before all lower case letters, so your items may not be in alphabetical order if some begin with a lower case letter and others begin with an upper case letter.
 
-  
 
 ### Tuples
 
