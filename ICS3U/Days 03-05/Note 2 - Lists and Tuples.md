@@ -90,7 +90,7 @@ groceries = ["bread", "milk", "potato"]
 
 groceries.insert(0, "cereal")  # this puts "cereal" at index 0 and pushes the other items over one spot
 
-print(groceries)  # prints ["milk", "potato"]
+print(groceries)  # prints ["cereal", "bread", "milk", "potato"]
 ```
 
 
