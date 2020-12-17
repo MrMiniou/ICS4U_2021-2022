@@ -1,4 +1,4 @@
-## Optional Note – List Comprehension
+## Note – List Comprehension
 
 ### The range() Function
 
