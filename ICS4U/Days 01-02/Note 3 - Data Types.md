@@ -152,14 +152,22 @@ These are all the examples of casting that can be done in Java:
 * any variable → `String`
 * `String` → any variable
 
-Here are some examples of methods used for casting.
+Here are some examples of methods used for casting:
 
 ```java
 int num = Integer.parseInt("6") // this changes the string "6" into the integer 6
 String total = Integer.toString(6) // this changes the integer 6 into the string "6"
 ```
 
-The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running. For example, when a value of one numeric type is assigned to a variable of a different numeric type, the numeric types are implicitly converted to the other numeric types.
+The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running.
+
+Here are some examples of coercion:
+
+```java
+double d = 4;  // 4 is an int/long, but it is converted to the double 4.0
+String s = "a" + 10;  // 10 is converted to the string "10"
+
+```
 
 
 ### Mathematical Operators
