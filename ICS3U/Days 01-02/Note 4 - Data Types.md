@@ -69,6 +69,7 @@ In different programming languages, there are different rules for naming. Here a
 
 In Python, the convention is to use snake case for variables and functions. (We'll get to what a function is in a later lesson.)
 
+All conventions can be found in the [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008).
 
 ### Mathematical Operators
 
