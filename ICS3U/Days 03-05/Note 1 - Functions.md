@@ -32,7 +32,7 @@ def slope(x1, x2, y1, y2):
 
 The keyword `def` indicates that we are **defining** a function. The function name here is `slope` and it takes four **parameters** (i.e. inputs), *x1*, *x2*, *y1*, and *y2*. 
 
-The keyword `return` indicates what value the function returns. In this case, the function returns the slope of a line given two coordinates: (x1, y1) and (x2, y2). The tab space before the `return` statement is necessary since it is a part of the body of the function.
+The keyword `return` indicates what value the function outputs. In this case, the function returns the slope of a line given two coordinates: (x1, y1) and (x2, y2). The tab space before the `return` statement is necessary since it is a part of the body of the function.
 
 We can call this function within the same program to find the slope a line.
 
