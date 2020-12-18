@@ -17,7 +17,7 @@ class Enemy:
     print("{} used {} attack!".format(self.name, attack_name))
 ```
 
-The `self` keyword is passed in all methods. Field names begins with `self.` when they are being used in a method in order to distinguish between them from the parameters of the method.
+The `self` keyword is passed in all methods that use any of the class's fields. Field names begins with `self.` when they are being used in a method in order to distinguish between them from the parameters of the method.
 
 When we create an object from a custom class, we call its **constructor**. The constructor has the same name as the class, including the initial capital letter. Whenever we call any method from the class, we omit the `self` parameter. 
 
