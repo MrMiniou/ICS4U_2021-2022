@@ -60,7 +60,7 @@ In some programing languages, aggregation and composition look slightly differen
 
 Inheritance can be referred to as a "is-a" association and is a *very strong* association. Unlike aggregation and composition, the subclass inherits *all* the fields and methods from the superclass. 
 
-To indicate that a subclass inherits a superclass, the name of the superclass is written in parentheses in the signature (the line that has `def`) of the subclass.
+To indicate that a subclass inherits a superclass, the name of the superclass is written in parentheses in the declaration line of the subclass.
 
 For example, if you are creating a two-player game with a human player and a computer player (i.e. a bot), you can create a `Player` class that has the field `name` (since all players have names), and two subclasses `Bot` and `Human`.
 
