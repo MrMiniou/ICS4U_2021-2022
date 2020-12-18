@@ -2,7 +2,7 @@
 
 ### Custom Classes
 
-Creating custom classes is like creating a custom data type. We can create our own custom classes using the keyword `class`. We can make our own fields and methods depending on what we want to do with the class. Here is an example of custom class for an enemy for an adventure game. 
+Creating a custom class is like creating a custom data type. We can create our own custom classes using the keyword `class`. We can make our own fields and methods depending on what we want to do with the class. Here is an example of custom class for an enemy for an adventure game. 
 
 ```python
 class Enemy:
