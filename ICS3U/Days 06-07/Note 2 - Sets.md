@@ -55,3 +55,11 @@ print(4 in numbers)  # prints True
 print(5 in numbers)  # prints False
 ```
 
+We can empty a set by remove any items it may have using `clear()`.
+
+```python
+numbers = {1, 4, 7, 12, 19}
+numbers.clear() 
+
+print(numbers)  # prints {}
+```
