@@ -10,7 +10,7 @@ from replit import audio
 
 This will allow us to use `audio.play_file()` with audio files such as *mp3* and *wav* files. These audio files can be dragged and dropped under **Files**, just like we can with image files.
 
-However, the audio will only play as long as the program is running, so we can add an infinite loop at the end of the file.
+However, the audio will only play as long as the program is running. The program below wouldn't work if the infinite loop were removed. 
 
 ```python
 from replit import audio
