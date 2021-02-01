@@ -30,7 +30,7 @@ while True:
   audio.play_file("music.mp3")
 ```
 
-If we want the audio to play again as soon as it ends, we can use the `Clock` class from Pygame to keep track of the time.
+If we want the audio to play on a loop, we can use the `time` module in Pygame to keep track of how much time has passed and repeatedly call the `audio.play_file()` function when the audio ends.
 
 ```python
 from replit import audio
