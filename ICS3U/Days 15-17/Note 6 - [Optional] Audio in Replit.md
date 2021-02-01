@@ -38,9 +38,9 @@ import pygame
 
 pygame.init()
 
-start_time = pygame.time.get_ticks()
 audio.play_file("music.mp3")
 audio_length = 2000  # replace 2000 with how many milliseconds the audio is
+start_time = pygame.time.get_ticks()
 
 while True: 
   if audio_length < pygame.time.get_ticks() - start_time:
