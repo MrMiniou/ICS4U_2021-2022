@@ -129,9 +129,8 @@ We can use a `for` loop to iterate through a list by looking at each item one by
 ```python
 groceries = ["bread", "milk", "potato"]
   
-for item in groceries {
+for item in groceries:
   print(item)  # prints each item in the list
-}
 ```
 
 If we wanted to print the indices (plural of index) too, we could use the `range()` function. We can use the `len()` function to get the **len**gth of a list.
@@ -139,9 +138,8 @@ If we wanted to print the indices (plural of index) too, we could use the `range
 ```python
 groceries = ["bread", "milk", "potato"]
   
-for index in range(len(groceries)) {
+for index in range(len(groceries)):
   print(index, groceries[index])  # prints each index in the list and its corresponding item
-}
 ```
 
 
