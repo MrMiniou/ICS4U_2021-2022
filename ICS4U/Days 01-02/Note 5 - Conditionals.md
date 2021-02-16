@@ -18,7 +18,7 @@ Here are all the operators you can use in Java to create Boolean expressions.
 | Not Equals | `!=` | Equality Operator | `3 != 5 // true`	| 3 is not equal to 5, so the expression is `true`.<br/></br>The exclamation point is commonly used to negate operators (i.e. make them the negative of what they originally are). |
 | NOT | `!` | Boolean Operator | `!(3 < 5) // false`	| The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND | `&&` | Boolean Operator | `(3 < 5) && (3 > 5) // false`	| At least one of those two statements is `false`, so the expression is `false`.<br/></br>There is a similar operator, `&`, called a bitwise operator, which does something completely different. Look it up if you're interested. |
-| OR | `||` | Boolean Operator | `(3 < 5) || (3 > 5) // true`	| At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br/></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
+| OR | `\|\|` | Boolean Operator | `(3 < 5) \|\| (3 > 5) // true`	| At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br/></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
 | XOR | `^` | Boolean Operator | `(3 < 5) ^ (3 > 5) // true`	| Exactly one of those two statements is `true`, so the expression is `true`.<br/></br>XOR is called "exclusive OR". It's like OR, except it returns `false` when more than one statement is `true`.<br/></br>The `^` symbol is called a "caret", not to be confused with "carrot" or "carat". |
 
 
@@ -42,7 +42,7 @@ if (<condition>) {
     <statement>;
     ⋮
     <statement>;
-} else if {
+} else if (<condition>) {
     <statement>;
     ⋮
     <statement>;

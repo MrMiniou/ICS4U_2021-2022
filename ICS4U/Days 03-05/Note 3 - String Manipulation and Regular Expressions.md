@@ -50,8 +50,8 @@ There are also several methods in the `String` class that are useful for modifyi
 | `substring()` | `"monkey".substring(2); // "nkey"`<br></br>`"monkey".substring(1, 3); // "on"` | Removes the first two characters.<br></br>Keeps only the characters between index 1 (inclusive) and 3 (exclusive). |
 | `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Changes all lower case letters to be upper case letter. |
 | `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Changes all upper case letters to be lower case letter. |
-| `replace()`      | `"abcabc".replace("a", "ef"); //"efbcefbc"`                  | Replaces all occurrences of `"a"` with `"e"`.                |
-| `replaceFirst()` | `"abcabc".replaceFirst("a", "ef"); //"efbcabc"`              | Replaces the first occurrence of `"a"` with `"e"`.           |
+| `replace()`      | `"abcabc".replace("a", "ef"); //"efbcefbc"`                  | Replaces all occurrences of `"a"` with `"ef"`.                |
+| `replaceFirst()` | `"abcabc".replaceFirst("a", "ef"); //"efbcabc"`              | Replaces the first occurrence of `"a"` with `"ef"`.           |
 
 
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
