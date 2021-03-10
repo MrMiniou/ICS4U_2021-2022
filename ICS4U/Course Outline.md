@@ -44,12 +44,13 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 12-14
 
-* Paired Programming
+* Post-Secondary Opportunities
 * Graphical User Interfaces
 * Object-Oriented Programming
 * Enumerations
 
 ### Days 15-22
 
+* Paired Programming
 * Culminating Task
-* Post-Secondary Opportunities
+
