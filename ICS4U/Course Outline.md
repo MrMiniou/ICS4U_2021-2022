@@ -44,10 +44,10 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 12-14
 
-* Post-Secondary Opportunities
 * Graphical User Interfaces
 * Object-Oriented Programming
 * Enumerations
+* Post-Secondary Opportunities
 
 ### Days 15-22
 
