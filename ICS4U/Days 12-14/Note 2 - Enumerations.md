@@ -25,7 +25,7 @@ Not only does the program becomes more concise and readable with the use of `enu
 If we want to print all the days of the week followed by its value, we can do this:
 
 ```java
-for (DayOfTheWeek d : DayOfTheWeek.values() {
+for (DayOfTheWeek d : DayOfTheWeek.values()) {
   System.out.println(d + ": " + d.ordinal());
 }
 ```
