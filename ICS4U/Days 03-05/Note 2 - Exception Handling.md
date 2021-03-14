@@ -31,7 +31,7 @@ The content in the `try` block is run first. It tries to run the lines in the bl
 
 The content in the `catch` block runs only when the exception `ArithmeticException` has been thrown. It "catches" the exception.
 
-The line `System.exit(0);` is used to indicate that the program has successfully run. If `System.exit(1);` is used instead, the program terminates abruptly. Since `return 0;` (0 is a dummy value here) is placed after it, it is actually never reached. If you exclude the `return` statement, NetBeans warns you that a `return` statement is missing and won't let you run your program. (If anyone knows a nicer way to get around this, please let me know.)
+The line `System.exit(0);` is used to indicate that the program has successfully run. If `System.exit(1);` is used instead, the program terminates abruptly. Since `return 0;` (0 is a dummy value here) is placed after it, it is actually never reached. If you exclude the `return` statement, repl.it warns you that a `return` statement is missing and won't let you run your program. (If anyone knows a nicer way to get around this, please let me know.)
 
 If there are more lines of code you want to run regardless of whether the catch block is run, you can use a `finally` block. 
 
